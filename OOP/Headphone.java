@@ -1,6 +1,6 @@
 package OOP;
 
-public class Headphone 
+public class Headphone
 {
     String charge =  "Micro usb";
     String[] controls = {"Power", "volume", "skip", "play"};
