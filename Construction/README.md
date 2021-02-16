@@ -4,6 +4,7 @@ Object in real life has certain properties and can-do certain things. In Java we
 For an example:
 A shirt is an object, and the properties is have size and colour
 An example for Shirt class
+
 public class Shirt 
 {
     // this is the properties of the shirt
@@ -12,7 +13,6 @@ public class Shirt
 
     // you can create a default constractor as follow
     Shirt() {}
-
     
     
     // this is the methods for the shirt
@@ -43,6 +43,7 @@ public class Shirt
 
 
 An example for the Main class
+
 public class Main 
 {
     public static void main(String[] args) 
