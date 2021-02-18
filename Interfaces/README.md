@@ -1,35 +1,3 @@
-Enum
-Overview: Is a list of value that do not change and set up as a class. You can access these values like a class as well.
-Why do we use enum:  we use enum for the values that it wont change instead of array. It’s cleaner and a good practice to follow . Additionally, you can run different codes based on different values
-
-How to use it:
-There are two ways to use enum:
-Inside a class: 
-Example
-	Public class AnimaType
-{
-		enum noOfLegs{
-					TWO,
-					FOUR 
-		}
-Public static void main(String[] args
-{
-    AnimalType at = AnimalType.TWO;
-    System.out.println(at);
-}
-}	
-Outside a class:  it is a good practice to use it in uppercase. 
-Example
-	public enum example 
-{
-	LOW,
-MEDIUM,
-HIGH;
-}
-	to access the enum you need to put name the enum class flowed by . than the value
-such as (example.LOW)
-System.out.println(example.LOW);
-
 Interface
 Overview: is an outline for a class. Moreover, interface define the behaviour of the object.
 A class can extend another class, but class cannot extend an interface, it instead it implements an interface.
