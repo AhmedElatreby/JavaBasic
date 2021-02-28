@@ -10,10 +10,10 @@ public abstract class Animal
     abstract void voice();
 
     // you can create a method in the abstract class with a body
-    void NoOfLegs()
-    {
-
-    }
+     void NoOfLegs()
+     {
+         
+     }
 
     
 }

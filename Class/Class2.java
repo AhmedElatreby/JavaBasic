@@ -1,0 +1,6 @@
+package Class;
+
+public class Class2 
+{
+    int y = 22;    
+}

@@ -9,13 +9,13 @@ public class Cat implements IAnimal {
     // once you implement the IAnimal class you have to add the the methods from IAnimal class
     @Override
     public void voice() {
-        // TODO Auto-generated method stub
+        System.out.println("Meoow!");
 
     }
 
     @Override
     public void NoOfLegs() {
-        // TODO Auto-generated method stub
+        System.out.println("Four!");
 
     }
 

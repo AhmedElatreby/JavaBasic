@@ -11,14 +11,17 @@ public class InterfaceExample implements IWaterBottle
          wb.fillUp();
          wb.pourOut();
     }
-    
-    public void fillUp() 
-    {        
+
+    @Override
+    public void fillUp() {
         System.out.println("We fill up the water bottle");
+
     }
-   
-    public void pourOut() 
-    {        
+
+    @Override
+    public void pourOut() {
         System.out.println("We pour out the water bottle");
-    }
+
+    }    
+   
 }

@@ -6,7 +6,10 @@ public class Main
 
     public static void main(String[] args) 
     {
-        Cat.add(Doggy);        
+        Doggy dog = new Doggy();
+        
+        dog.voice();
+        dog.NoOfLegs();
     }    
 
     // public static void test(){
