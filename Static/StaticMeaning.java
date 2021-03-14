@@ -10,8 +10,8 @@ public class StaticMeaning
     public static void main(String[] args) 
     {
         int b = 1;
-        // we can not access (a) as is not in static 
-        System.out.println(a + b);
+        // // we can not access (a) as is not in static 
+        // System.out.println(a + b);
         // we will be able to access (c) as it's static 
         System.out.println(c + b);
 

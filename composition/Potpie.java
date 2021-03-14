@@ -1,3 +1,5 @@
+package composition;
+
 public class Potpie 
 {
     private int month;

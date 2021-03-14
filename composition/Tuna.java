@@ -1,3 +1,5 @@
+package composition;
+
 public class Tuna
 {
     private String name;
